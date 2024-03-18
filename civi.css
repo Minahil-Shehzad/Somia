@@ -1,0 +1,258 @@
+.image img{
+  width: 185px;
+  height: 185px;
+  border-radius: 17px;
+  border-color:rgb(7, 7, 80);
+  border: 1px solid #ddd;
+}
+.image img:hover{
+ transform: scaleX(-1);
+ -webkit-box-reflect: left 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}    
+*{
+         font-family: Poppins;
+}
+.image{
+ float: left;
+ padding: 38px 95px 0px 266px;
+}
+table,th,td{
+  border: 1px solid rgb(7, 7, 80);
+}
+.box1{
+  /* background-color:peachpuff; */
+  /* border-radius: 25px; */
+}
+.Name p{
+ float: right;
+ border: none;
+ color: rgb(7, 7, 80);
+ text-align: center;
+ padding:0px 61px 0px 20px;
+ width: 195px;
+ height: 42px;
+ top: 971px;
+ left: 155px;
+ opacity: 0.7px;
+ font-family: Poppins;
+ font-size: 23px;
+ font-weight: 500;
+ line-height: 21px;
+ letter-spacing: 0.04em;
+}
+.Name h1{
+ color: rgb(7, 7, 80);
+ font-weight: 1000;
+
+}
+.Name li{
+ list-style: none;
+}
+.box1{
+  display: flex;
+}
+.Name{
+ float: right;
+padding: 48px 185px 0px 0px;
+
+}
+.Container{
+ width: 1190px;
+ margin: auto;
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.box2{
+ clear: both;
+ display: flex;
+}
+.Col1 {
+ float: left;
+ /* width: 50%; */
+ padding: 20px;
+}
+.Col1 h4{
+ margin: auto;
+ padding: 27px 20px 0px 239px;
+ background-color: rgb(7, 7, 80) ;
+ color: antiquewhite;
+ border-radius: 25px;
+}
+.Col1 p{
+  font-style:Sans-Serif;
+ font-weight: 600;
+ font-size: 20px;
+ font-weight: 500;
+ line-height: 30px;
+ letter-spacing: 0em;
+ border: none;
+}
+.Col2 h4{ 
+
+ background-color: rgb(7, 7, 80) ;
+ color: antiquewhite;
+ padding: 27px 20px 0px 239px;
+ border-radius: 25px;
+}
+.Col2 {
+ float: right;
+ width: 50%;
+}
+.Col2 p{
+ padding: 8px;
+ font-style:Sans-Serif;
+ font-weight: 600;
+ font-size: 20px;
+ font-weight: 500;
+ line-height: 30px;
+ letter-spacing: 0em;
+ border: none;
+ padding: 8px;
+}
+.icons img{
+  width: 44px;
+  height: 44px;
+  display: block;
+  padding: 0px 33px 0px 43px;
+}
+.icons{
+  padding: 9px;
+}
+.conimg{
+ display: flex;
+}
+.conimg img{
+ 
+  width: 5%;
+  height: 5%;
+  padding-top: 13px;
+  border-radius: 50px;
+  padding: 9px 12px 4px 11px;
+  background-color:rgb(7, 7, 80); 
+-webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+ }
+ .conimg img:hover{
+  background-color: white;
+ }
+.conimg p{
+ color: rgb(92, 92, 248);
+ padding: 0px 20px 0px 20px;
+ font-style:Sans-Serif;
+ font-weight: 600;
+ font-size: 20px;
+ font-weight: 500;
+ line-height: 30px;
+ letter-spacing: 0em;
+ border: none;
+ 
+}
+.conimg p:hover{
+  color:black;
+}
+.Col2 a{
+  padding: 27px 0px 20px 20px;
+  font-style:Sans-Serif;
+ font-weight: 600;
+ font-size: 20px;
+ font-weight: 500;
+ line-height: 30px;
+ letter-spacing: 0em;
+ border: none;
+}
+.Col1{
+ width: 600px;
+}
+.Col2 li{
+padding: 9px;
+font-style:Sans-Serif;
+ font-weight: 600;
+ font-size: 20px;
+ font-weight: 500;
+ line-height: 30px;
+ letter-spacing: 0em;
+ border: none;
+}
+.Col1 li{
+ padding: 8px;
+ font-style:Sans-Serif;
+ font-weight: 600;
+ font-size: 20px;
+ font-weight: 500;
+ line-height: 30px;
+ letter-spacing: 0em;
+ border: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .box1 {
+    display: block;
+  }
+  .Name {
+    float: none;
+    padding: 0;
+    text-align: center;
+  }
+  .image {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .Container {
+    width: 100%;
+  }
+  .Col1,
+  .Col2 {
+    width: 100%;
+    float: none;
+  }
+  .Col1 h4,
+  .Col2 h4 {
+    padding: 20px;
+    text-align: center;
+  }
+  .icons img {
+    padding: 0;
+  }
+  .conimg {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .box1,
+  .box2 {
+    display: block;
+  }
+  .Name {
+    float: none;
+    padding: 20px;
+    text-align: center;
+  }
+  .image {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .Container {
+    width: 100%;
+    box-shadow: none; /* Remove the box-shadow to make it more mobile-friendly */
+  }
+  .Col1,
+  .Col2 {
+    width: 100%;
+    float: none;
+  }
+  .Col1 h4,
+  .Col2 h4 {
+    padding: 20px;
+    text-align: center;
+  }
+  .icons img {
+    padding: 0;
+  }
+  .conimg {
+    justify-content: center;
+  }
+  .conimg img {
+    width: 30px; /* Adjust the icon size for smaller screens */
+    height: 30px;
+  }
+}

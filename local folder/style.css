@@ -1,0 +1,95 @@
+.image img{
+    width: 185px;
+    height: 185px;
+    border-radius: 89px;
+    border-color:rgb(7, 7, 80);
+    
+  }
+  *{
+   font-family: Poppins;
+  }
+  .image{
+   float: left;
+   padding: 38px 95px 0px 266px;
+  }
+  .Name h1 p{
+   float: right;
+   font-style:Sans-Serif;
+   font-weight: 600;
+  }
+  .Name h1{
+   color: rgb(7, 7, 80);
+
+  }
+  .Name p{
+   font-style: Poppins;
+   margin: auto;
+   padding: 0px 20px 0px 91px;
+   color: rgb(7, 7, 80) ;
+  
+  }
+  .Name li{
+   list-style: none;
+  }
+  .box1{
+    display: flex;
+  }
+  .Name{
+   float: right;
+  padding: 48px 185px 0px 0px;
+
+  }
+  .Container{
+   width: 1150px;
+   margin: auto;
+  }
+
+  .box2{
+   clear: both;
+   display: flex;
+  }
+  .Col1 {
+   float: left;
+   /* width: 50%; */
+   padding: 20px;
+  }
+  .Col1 h4{
+   margin: auto;
+   padding: 27px 20px 0px 239px;
+   background-color: rgb(7, 7, 80) ;
+   color: antiquewhite;
+   border-radius: 25px;
+  }
+  .Col2 h4{ 
+
+   background-color: rgb(7, 7, 80) ;
+   color: antiquewhite;
+   padding: 27px 20px 0px 239px;
+   border-radius: 25px;
+ }
+  .Col2 {
+   float: right;
+   width: 50%;
+  }
+  .Col2 p{
+   padding: 7px 20px 0px 20px;
+  }
+  .icons img{
+    width: 44px;
+    height: 44px;
+    display: block;
+    padding: 0px 33px 0px 43px;
+  }
+  .conimg{
+   display: flex;
+  }
+  .Col1{
+   width: 600px;
+  }
+  .Col2 li{
+ padding: 9px;
+  }
+  .Col1 li{
+   padding: 8px;
+  }
+  
